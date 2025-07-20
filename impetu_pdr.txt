@@ -1,0 +1,115 @@
+PDR: Diseño de Landing Page para IMPETU Solutions Factory
+1. Resumen Ejecutivo
+Este documento define los requisitos de diseño y contenido para la nueva landing page de IMPETU. El objetivo es crear una experiencia digital que comunique eficazmente la propuesta de valor de IMPETU como un socio estratégico en innovación y tecnología inteligente. La página debe guiar al visitante a través de los desafíos que resuelve la empresa, sus servicios y su metodología, culminando en una clara llamada a la acción para generar leads cualificados.
+
+
+2. Objetivos de la Landing Page
+
+Objetivo Principal: Generar prospectos (leads) a través de la oferta de una sesión de diagnóstico gratuita.
+
+Objetivos Secundarios:
+
+Establecer a IMPETU como un aliado experto en crecimiento y eficiencia.
+
+Comunicar claramente los cuatro pilares de servicios.
+
+Generar confianza y credibilidad mostrando una metodología de trabajo transparente.
+
+Educar al visitante sobre el concepto de "ecosistemas digitales inteligentes".
+
+
+
+3. Audiencia Objetivo
+Perfil Primario: Dueños de negocios, directores generales (CEOs) y gerentes de operaciones de PYMES que experimentan problemas de eficiencia debido a procesos manuales o sistemas desconectados.
+
+
+Perfil Secundario: Directores de tecnología (CTOs) o líderes de TI que buscan un socio para mantener y evolucionar sus aplicaciones críticas o integrar nuevas tecnologías como la IA.
+
+
+4. Propuesta Única de Valor (UVP)
+El mensaje central que debe resonar en toda la página es: 
+
+"IMPETU no solo crea software; construye ecosistemas digitales inteligentes y unificados que se convierten en el motor de crecimiento para su negocio".
+
+
+
+5. Estructura y Flujo de Contenido
+Sección 1: Héroe (Impacto Inmediato)
+
+Título Principal: Transformando su Negocio con Tecnología Inteligente.
+
+Subtítulo: Deje de gestionar el caos de procesos manuales y sistemas aislados. Le ayudamos a construir un ecosistema digital unificado que impulsa su crecimiento y eficiencia.
+
+Llamada a la Acción (CTA) Principal: Un botón prominente que diga "Solicitar Diagnóstico Gratuito".
+
+Sección 2: El Problema (Conexión con el Cliente)
+Título: ¿Su negocio opera con silos de información y flujos de trabajo manuales?
+
+Contenido: Una sección visual con 3-4 puntos de dolor comunes: "Procesos en Papel/Excel", "Sistemas que no se hablan (CRM, ERP)", "Datos descentralizados", "Falta de visibilidad". Esto prepara el terreno para presentar los servicios de IMPETU como la solución.
+
+Sección 3: Nuestros Servicios (La Solución)
+
+Título: Creamos su Ecosistema Digital Conectado.
+
+Contenido: Un diseño de 4 columnas o tarjetas interactivas, cada una representando un servicio clave:
+
+
+Digitalización de Procesos: Transforme sus flujos de trabajo manuales en aplicaciones centralizadas y eficientes.
+
+
+Integración de Sistemas: Conecte su CRM, ERP y otras herramientas para que los datos fluyan de forma automática y segura.
+
+
+Agentes de IA: Automatice tareas y análisis con asistentes inteligentes, chatbots y motores de análisis personalizados.
+
+
+Mantenimiento y Evolución: Garantice que su tecnología crítica siempre funcione y evolucione con su negocio.
+
+Sección 4: Metodología (Generación de Confianza)
+
+Título: Nuestro Proceso: Transparencia y Resultados en Cada Etapa.
+
+Contenido: Una infografía visual que muestre los 4 pasos de la metodología de trabajo, destacando los beneficios para el cliente en cada fase:
+
+
+Descubrimiento y Estrategia: Entendemos sus objetivos a fondo.
+
+
+Diseño y Planificación: Vea cómo funcionará su solución antes de empezar a construir.
+
+
+Desarrollo Ágil: Entregas funcionales y retroalimentación constante.
+
+
+Lanzamiento y Soporte: Lo acompañamos para asegurar el éxito y la evolución continua.
+
+Sección 5: Llamada a la Acción Final (La Conversión)
+
+Título: ¿Listo para dar el siguiente paso?.
+
+Contenido: Replantear la oferta de la sesión de diagnóstico gratuita, destacando los entregables:
+
+Una charla de 45 minutos para entender su desafío principal.
+
+Análisis del potencial de mejora.
+
+Entrega de una hoja de ruta preliminar sin compromiso.
+
+Formulario: Un formulario simple para solicitar la sesión, con campos como: Nombre, Email, Empresa, Teléfono.
+
+6. Elementos de Diseño y Tono Visual
+
+Tono: Profesional, innovador, inteligente y transparente.
+
+Paleta de Colores: Utilizar los azules y blancos de la presentación para transmitir tecnología y confianza.
+
+Imágenes: Fotografías de alta calidad que muestren equipos colaborando, tecnología en acción y resultados de negocio (gráficos de crecimiento, etc.).
+
+Iconografía: Iconos limpios y modernos para cada uno de los servicios.
+
+7. Métricas de Éxito (KPIs)
+Tasa de Conversión: Porcentaje de visitantes que completan el formulario de diagnóstico.
+
+Tasa de Rebote: Porcentaje de visitantes que abandonan la página sin interactuar.
+
+Calidad de Leads: Número de prospectos que se ajustan al perfil de cliente ideal.

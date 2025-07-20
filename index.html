@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IMPETU Solutions Factory - Transformamos su negocio con tecnología inteligente. Construimos ecosistemas digitales unificados que impulsan su crecimiento y eficiencia.">
+    <meta name="keywords" content="tecnología inteligente, digitalización, integración de sistemas, IA, automatización, software empresarial">
+    <title>IMPETU Solutions Factory - Ecosistemas Digitales Inteligentes</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="assets/logo-impetu.png" alt="IMPETU Solutions Factory" class="logo-image">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#metodologia">Metodología</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <button class="nav-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Sección Hero -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Transformando su Negocio con Tecnología Inteligente</h1>
+                    <p class="hero-subtitle">Su Aliado en Crecimiento y Eficiencia</p>
+                    <div class="hero-cta">
+                        <button class="btn btn-primary" onclick="scrollToCTA()">Solicitar Diagnóstico Gratuito</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <img src="assets/hero-ecosistema-digital.png" alt="Ecosistema Digital Inteligente" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Problema -->
+        <section id="problema" class="problema">
+            <div class="container">
+                <h2 class="section-title">¿Su negocio opera con silos de información y flujos de trabajo manuales?</h2>
+                <div class="problemas-grid">
+                    <div class="problema-card">
+                        <div class="problema-icon">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                        </div>
+                        <h3>Procesos en Papel/Excel</h3>
+                        <p>Información dispersa y propensa a errores que ralentiza su operación</p>
+                    </div>
+                    <div class="problema-card">
+                        <div class="problema-icon">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <h3>Sistemas que no se hablan</h3>
+                        <p>CRM, ERP y otras herramientas desconectadas que generan duplicación de trabajo</p>
+                    </div>
+                    <div class="problema-card">
+                        <div class="problema-icon">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path>
+                            </svg>
+                        </div>
+                        <h3>Datos descentralizados</h3>
+                        <p>Información fragmentada que impide tomar decisiones basadas en datos reales</p>
+                    </div>
+                    <div class="problema-card">
+                        <div class="problema-icon">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                            </svg>
+                        </div>
+                        <h3>Falta de visibilidad</h3>
+                        <p>Sin una vista clara del estado real de su negocio y operaciones</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Servicios -->
+        <section id="servicios" class="servicios">
+            <div class="container">
+                <h2 class="section-title">Creamos su Ecosistema Digital Conectado</h2>
+                <div class="servicios-grid">
+                    <article class="servicio-card">
+                        <div class="servicio-icon">
+                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+                            </svg>
+                        </div>
+                        <h3>DIGITALIZACIÓN DE PROCESOS</h3>
+                        <p>Convertimos sus flujos de trabajo manuales en aplicaciones digitales centralizadas.</p>
+                    </article>
+                    
+                    <article class="servicio-card">
+                        <div class="servicio-icon">
+                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3>INTEGRACIONES DE SISTEMAS</h3>
+                        <p>Conectamos sus sistemas existentes (CRM, ERP, etc.) para que compartan datos.</p>
+                    </article>
+                    
+                    <article class="servicio-card">
+                        <div class="servicio-icon">
+                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                            </svg>
+                        </div>
+                        <h3>AGENTES DE INTELIGENCIA ARTIFICIAL</h3>
+                        <p>Desarrollamos agentes inteligentes como chatbots y asistentes virtuales.</p>
+                    </article>
+                    
+                    <article class="servicio-card">
+                        <div class="servicio-icon">
+                            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                        </div>
+                        <h3>MANTENIMIENTO Y EVOLUCIÓN</h3>
+                        <p>Garantizamos que sus aplicaciones funcionen sin interrupciones.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Metodología -->
+        <section id="metodologia" class="metodologia">
+            <div class="container">
+                <h2 class="section-title">Nuestro Proceso: Transparencia y Resultados en Cada Etapa</h2>
+                <div class="metodologia-timeline">
+                    <div class="metodologia-paso">
+                        <div class="paso-numero">1</div>
+                        <div class="paso-content">
+                            <div class="paso-header">
+                                <svg class="w-5 h-5 paso-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                </svg>
+                                <h3>Descubrimiento y Estrategia</h3>
+                            </div>
+                            <p>Entendemos sus objetivos a fondo, analizamos sus procesos actuales y definimos la estrategia digital que impulsará su crecimiento.</p>
+                            <div class="paso-beneficios">
+                                <span class="beneficio-tag">Análisis completo</span>
+                                <span class="beneficio-tag">Estrategia personalizada</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="metodologia-paso">
+                        <div class="paso-numero">2</div>
+                        <div class="paso-content">
+                            <div class="paso-header">
+                                <svg class="w-5 h-5 paso-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17v4a2 2 0 002 2h4M5 7l5-5"></path>
+                                </svg>
+                                <h3>Diseño y Planificación</h3>
+                            </div>
+                            <p>Vea cómo funcionará su solución antes de empezar a construir. Creamos prototipos y planificamos cada detalle de la implementación.</p>
+                            <div class="paso-beneficios">
+                                <span class="beneficio-tag">Prototipos visuales</span>
+                                <span class="beneficio-tag">Plan detallado</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="metodologia-paso">
+                        <div class="paso-numero">3</div>
+                        <div class="paso-content">
+                            <div class="paso-header">
+                                <svg class="w-5 h-5 paso-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                                </svg>
+                                <h3>Desarrollo Ágil</h3>
+                            </div>
+                            <p>Entregas funcionales y retroalimentación constante. Desarrollamos en sprints cortos para que vea resultados rápidamente.</p>
+                            <div class="paso-beneficios">
+                                <span class="beneficio-tag">Entregas continuas</span>
+                                <span class="beneficio-tag">Feedback constante</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="metodologia-paso">
+                        <div class="paso-numero">4</div>
+                        <div class="paso-content">
+                            <div class="paso-header">
+                                <svg class="w-5 h-5 paso-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <h3>Lanzamiento y Soporte</h3>
+                            </div>
+                            <p>Lo acompañamos para asegurar el éxito y la evolución continua. Monitoreamos, optimizamos y escalamos su solución.</p>
+                            <div class="paso-beneficios">
+                                <span class="beneficio-tag">Soporte continuo</span>
+                                <span class="beneficio-tag">Evolución garantizada</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección CTA Final -->
+        <section id="cta-final" class="cta-final">
+            <div class="container">
+                <h2 class="section-title">¿Listo para dar el siguiente paso?</h2>
+                <p class="cta-description">Descubra cómo podemos transformar su negocio con una sesión de diagnóstico gratuita de 45 minutos.</p>
+                
+                <div class="cta-beneficios">
+                    <div class="beneficio-item">
+                        <div class="beneficio-icon">🎯</div>
+                        <div class="beneficio-text">
+                            <h4>Entendemos su desafío principal</h4>
+                            <p>Una charla de 45 minutos para identificar sus mayores oportunidades de mejora</p>
+                        </div>
+                    </div>
+                    <div class="beneficio-item">
+                        <div class="beneficio-icon">📊</div>
+                        <div class="beneficio-text">
+                            <h4>Análisis del potencial de mejora</h4>
+                            <p>Evaluamos el impacto que tendría la implementación de soluciones digitales</p>
+                        </div>
+                    </div>
+                    <div class="beneficio-item">
+                        <div class="beneficio-icon">🗺️</div>
+                        <div class="beneficio-text">
+                            <h4>Hoja de ruta preliminar</h4>
+                            <p>Reciba un plan de acción personalizado sin compromiso alguno</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="cta-form" id="diagnosticoForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email corporativo *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="empresa">Empresa *</label>
+                            <input type="text" id="empresa" name="empresa" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Cuéntenos brevemente sobre su desafío principal</label>
+                        <textarea id="mensaje" name="mensaje" rows="3" placeholder="Ej: Tenemos procesos manuales que nos están ralentizando..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Solicitar Diagnóstico Gratuito</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo-text">IMPETU</div>
+                    <p>Construyendo ecosistemas digitales inteligentes que impulsan el crecimiento de su negocio.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><a href="#servicios">Digitalización</a></li>
+                            <li><a href="#servicios">Integración</a></li>
+                            <li><a href="#servicios">Agentes IA</a></li>
+                            <li><a href="#servicios">Mantenimiento</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#metodologia">Metodología</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                            <li><a href="/privacidad">Privacidad</a></li>
+                            <li><a href="/terminos">Términos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 IMPETU Solutions Factory. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html> 
