@@ -15,7 +15,7 @@ function initFormValidation() {
 
     form.addEventListener('submit', function(e) {
         e.preventDefault();
-        
+
         if (validateForm()) {
             submitForm();
         }
@@ -27,7 +27,7 @@ function initFormValidation() {
         input.addEventListener('blur', function() {
             validateField(this);
         });
-        
+
         input.addEventListener('input', function() {
             clearFieldError(this);
         });
@@ -70,10 +70,10 @@ function validateForm() {
 function validateField(field) {
     const value = field.value.trim();
     const fieldName = field.getAttribute('name');
-    
+
     // Campos requeridos
     const requiredFields = ['nombre', 'email', 'empresa'];
-    
+
     if (requiredFields.includes(fieldName) && !value) {
         const fieldLabels = {
             'nombre': 'Nombre completo',
@@ -112,10 +112,10 @@ function isValidPhone(phone) {
 function showFieldError(field, message) {
     // Remover error previo
     clearFieldError(field);
-    
+
     // Agregar clase de error
     field.classList.add('error');
-    
+
     // Crear mensaje de error
     const errorDiv = document.createElement('div');
     errorDiv.className = 'field-error';
@@ -123,7 +123,7 @@ function showFieldError(field, message) {
     errorDiv.style.color = 'var(--error)';
     errorDiv.style.fontSize = '0.875rem';
     errorDiv.style.marginTop = '0.25rem';
-    
+
     // Insertar después del campo
     field.parentNode.appendChild(errorDiv);
 }
@@ -140,7 +140,7 @@ function clearAllErrors() {
     const form = document.getElementById('diagnosticoForm');
     const errorFields = form.querySelectorAll('.error');
     const errorMessages = form.querySelectorAll('.field-error');
-    
+
     errorFields.forEach(field => field.classList.remove('error'));
     errorMessages.forEach(message => message.remove());
 }
@@ -150,25 +150,25 @@ function submitForm() {
     const form = document.getElementById('diagnosticoForm');
     const submitButton = form.querySelector('button[type="submit"]');
     const originalText = submitButton.textContent;
-    
+
     // Mostrar estado de carga
     submitButton.disabled = true;
     submitButton.textContent = 'Enviando...';
     submitButton.style.opacity = '0.7';
-    
+
     // Simular envío (aquí se conectaría con el backend real)
     setTimeout(() => {
         // Mostrar mensaje de éxito
         showSuccessMessage();
-        
+
         // Resetear formulario
         form.reset();
-        
+
         // Restaurar botón
         submitButton.disabled = false;
         submitButton.textContent = originalText;
         submitButton.style.opacity = '1';
-        
+
         // Scroll al mensaje de éxito
         document.getElementById('success-message').scrollIntoView({
             behavior: 'smooth',
@@ -191,7 +191,7 @@ function showSuccessMessage() {
                 <button onclick="closeSuccessMessage()" class="btn btn-primary">Cerrar</button>
             </div>
         `;
-        
+
         // Estilos para el mensaje de éxito
         successDiv.style.cssText = `
             position: fixed;
@@ -206,7 +206,7 @@ function showSuccessMessage() {
             z-index: 10000;
             backdrop-filter: blur(5px);
         `;
-        
+
         const successContent = successDiv.querySelector('.success-content');
         successContent.style.cssText = `
             background: white;
@@ -217,7 +217,7 @@ function showSuccessMessage() {
             margin: 1rem;
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
         `;
-        
+
         document.body.appendChild(successDiv);
     }
 }
@@ -241,7 +241,7 @@ function initSmoothScrolling() {
             });
         }
     };
-    
+
     // Scroll suave para enlaces internos
     const internalLinks = document.querySelectorAll('a[href^="#"]');
     internalLinks.forEach(link => {
@@ -249,11 +249,11 @@ function initSmoothScrolling() {
             e.preventDefault();
             const targetId = this.getAttribute('href').substring(1);
             const targetElement = document.getElementById(targetId);
-            
+
             if (targetElement) {
                 const headerHeight = document.querySelector('.header').offsetHeight;
                 const targetPosition = targetElement.offsetTop - headerHeight - 20;
-                
+
                 window.scrollTo({
                     top: targetPosition,
                     behavior: 'smooth'
@@ -267,12 +267,12 @@ function initSmoothScrolling() {
 function initMobileMenu() {
     const navToggle = document.querySelector('.nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
-    
+
     if (navToggle && navMenu) {
         navToggle.addEventListener('click', function() {
             navMenu.classList.toggle('active');
             navToggle.classList.toggle('active');
-            
+
             // Animar las líneas del hamburguesa con efectos avanzados
             const spans = navToggle.querySelectorAll('span');
             spans.forEach((span, index) => {
@@ -295,7 +295,7 @@ function initMobileMenu() {
                     span.style.background = 'var(--gray-700)';
                 }
             });
-            
+
             // Efecto de vibración en el botón
             if (navToggle.classList.contains('active')) {
                 navToggle.style.animation = 'bounceIn 0.3s ease-out';
@@ -303,7 +303,7 @@ function initMobileMenu() {
                 navToggle.style.animation = 'none';
             }
         });
-        
+
         // Cerrar menú al hacer click en un enlace con animación
         const navLinks = navMenu.querySelectorAll('a');
         navLinks.forEach((link, index) => {
@@ -315,11 +315,11 @@ function initMobileMenu() {
                     item.style.transform = 'translateY(20px)';
                     item.style.opacity = '0';
                 });
-                
+
                 setTimeout(() => {
                     navMenu.classList.remove('active');
                     navToggle.classList.remove('active');
-                    
+
                     // Resetear animaciones
                     menuItems.forEach(item => {
                         item.style.transitionDelay = '';
@@ -329,7 +329,7 @@ function initMobileMenu() {
                 }, 300);
             });
         });
-        
+
         // Cerrar menú al hacer click fuera
         document.addEventListener('click', (e) => {
             if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
@@ -346,7 +346,7 @@ function initScrollEffects() {
     window.addEventListener('scroll', function() {
         const header = document.querySelector('.header');
         const scrolled = window.scrollY;
-        
+
         if (scrolled > 50) {
             header.classList.add('scrolled');
             header.style.background = 'rgba(255, 255, 255, 0.98)';
@@ -358,7 +358,7 @@ function initScrollEffects() {
             header.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.05)';
             header.style.backdropFilter = 'blur(20px)';
         }
-        
+
         // Efecto de opacidad en el logo
         const logo = document.querySelector('.nav-logo .logo');
         if (logo) {
@@ -366,20 +366,20 @@ function initScrollEffects() {
             logo.style.opacity = opacity;
         }
     });
-    
+
     // Animación de elementos al hacer scroll con efectos avanzados
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
     };
-    
+
     const observer = new IntersectionObserver(function(entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const element = entry.target;
                 element.style.opacity = '1';
                 element.style.transform = 'translateY(0)';
-                
+
                 // Efectos específicos por tipo de elemento
                 if (element.classList.contains('problema-card')) {
                     element.style.animation = 'bounceIn 0.8s ease-out';
@@ -391,7 +391,7 @@ function initScrollEffects() {
             }
         });
     }, observerOptions);
-    
+
     // Observar elementos para animación
     const animatedElements = document.querySelectorAll('.problema-card, .servicio-card, .metodologia-paso');
     animatedElements.forEach((el, index) => {
@@ -401,7 +401,7 @@ function initScrollEffects() {
         el.style.animationDelay = `${index * 0.1}s`;
         observer.observe(el);
     });
-    
+
     // Efecto parallax para el hero
     window.addEventListener('scroll', function() {
         const scrolled = window.pageYOffset;
@@ -411,7 +411,7 @@ function initScrollEffects() {
             hero.style.transform = `translateY(${rate}px)`;
         }
     });
-    
+
     // Contador animado para estadísticas (si se agregan)
     const counters = document.querySelectorAll('.counter');
     const counterObserver = new IntersectionObserver(function(entries) {
@@ -422,7 +422,7 @@ function initScrollEffects() {
                 const duration = 2000; // 2 segundos
                 const increment = target / (duration / 16); // 60fps
                 let current = 0;
-                
+
                 const updateCounter = () => {
                     current += increment;
                     if (current < target) {
@@ -432,13 +432,13 @@ function initScrollEffects() {
                         counter.textContent = target;
                     }
                 };
-                
+
                 updateCounter();
                 counterObserver.unobserve(counter);
             }
         });
     });
-    
+
     counters.forEach(counter => counterObserver.observe(counter));
 }
 
@@ -446,7 +446,7 @@ function initScrollEffects() {
 function formatPhoneNumber(input) {
     // Formatear número de teléfono mientras se escribe
     let value = input.value.replace(/\D/g, '');
-    
+
     if (value.length <= 3) {
         value = value;
     } else if (value.length <= 6) {
@@ -454,7 +454,7 @@ function formatPhoneNumber(input) {
     } else {
         value = value.slice(0, 3) + '-' + value.slice(3, 6) + '-' + value.slice(6, 10);
     }
-    
+
     input.value = value;
 }
 
@@ -462,16 +462,16 @@ function formatPhoneNumber(input) {
 function initAdvancedInteractions() {
     // Efecto de partículas en el hero
     createParticles();
-    
+
     // Efecto de typing para el título
     typeWriterEffect();
-    
+
     // Efecto de hover 3D para tarjetas
     init3DHoverEffects();
-    
+
     // Efecto de cursor personalizado
     initCustomCursor();
-    
+
     // Efectos avanzados del header
     initHeaderEffects();
 }
@@ -479,7 +479,7 @@ function initAdvancedInteractions() {
 function createParticles() {
     const hero = document.querySelector('.hero');
     if (!hero) return;
-    
+
     const particleCount = 50;
     for (let i = 0; i < particleCount; i++) {
         const particle = document.createElement('div');
@@ -503,11 +503,11 @@ function createParticles() {
 function typeWriterEffect() {
     const title = document.querySelector('.hero-title');
     if (!title) return;
-    
+
     const text = title.textContent;
     title.textContent = '';
     title.style.borderRight = '2px solid white';
-    
+
     let i = 0;
     const typeWriter = () => {
         if (i < text.length) {
@@ -518,28 +518,28 @@ function typeWriterEffect() {
             title.style.borderRight = 'none';
         }
     };
-    
+
     setTimeout(typeWriter, 1000);
 }
 
 function init3DHoverEffects() {
     const cards = document.querySelectorAll('.servicio-card, .problema-card');
-    
+
     cards.forEach(card => {
         card.addEventListener('mousemove', function(e) {
             const rect = this.getBoundingClientRect();
             const x = e.clientX - rect.left;
             const y = e.clientY - rect.top;
-            
+
             const centerX = rect.width / 2;
             const centerY = rect.height / 2;
-            
+
             const rotateX = (y - centerY) / 10;
             const rotateY = (centerX - x) / 10;
-            
+
             this.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(10px)`;
         });
-        
+
         card.addEventListener('mouseleave', function() {
             this.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateZ(0)';
         });
@@ -561,12 +561,12 @@ function initCustomCursor() {
         mix-blend-mode: difference;
     `;
     document.body.appendChild(cursor);
-    
+
     document.addEventListener('mousemove', function(e) {
         cursor.style.left = e.clientX - 10 + 'px';
         cursor.style.top = e.clientY - 10 + 'px';
     });
-    
+
     // Efecto de hover en elementos interactivos
     const interactiveElements = document.querySelectorAll('a, button, .problema-card, .servicio-card');
     interactiveElements.forEach(el => {
@@ -583,13 +583,13 @@ function initCustomCursor() {
 function initHeaderEffects() {
     const header = document.querySelector('.header');
     const navMenu = document.querySelector('.nav-menu');
-    
+
     // Efecto de hover en el header completo
     header.addEventListener('mouseenter', function() {
         this.style.transform = 'translateY(0)';
         this.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
     });
-    
+
     header.addEventListener('mouseleave', function() {
         this.style.transform = 'translateY(0)';
         const scrolled = window.scrollY;
@@ -599,17 +599,17 @@ function initHeaderEffects() {
             this.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.05)';
         }
     });
-    
+
     // Efecto de partículas en el header
     createHeaderParticles();
-    
+
     // Efecto de typing en el logo (si es texto)
     const logo = document.querySelector('.nav-logo');
     if (logo && logo.textContent) {
         logo.addEventListener('mouseenter', function() {
             this.style.animation = 'pulseCTA 0.6s ease-in-out';
         });
-        
+
         logo.addEventListener('animationend', function() {
             this.style.animation = '';
         });
@@ -619,7 +619,7 @@ function initHeaderEffects() {
 function createHeaderParticles() {
     const header = document.querySelector('.header');
     if (!header) return;
-    
+
     // Crear partículas sutiles en el header
     const particleCount = 8;
     for (let i = 0; i < particleCount; i++) {
@@ -659,8 +659,8 @@ if ('IntersectionObserver' in window) {
             }
         });
     });
-    
+
     document.querySelectorAll('img[data-src]').forEach(img => {
         imageObserver.observe(img);
     });
-} 
+}
