@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "services": "Services",
+    "methodology": "Methodology",
+    "verticals": "Verticals",
+    "contact": "Contact",
+    "bookCall": "Book a Call"
+  },
+  "hero": {
+    "badge": "Strategic Engineering",
+    "title1": "Software isn't the goal. It's the means to",
+    "titleHighlight": "scale your business.",
+    "subtitle": "At Impetu, we don't just 'write code'. We reduce technical uncertainty through strategic engineering, product design, and AI agents that optimize your real processes.",
+    "ctaPrimary": "Start Strategic Consulting",
+    "ctaSecondary": "View our lifecycle methodology",
+    "optTitle": "Optimization",
+    "optDesc": "Before coding, we resolve operational efficiency.",
+    "aiTitle": "AI Agents",
+    "aiDesc": "Autonomous agents for complex workflows.",
+    "archTitle": "Robust Architecture",
+    "archDesc": "Infrastructure designed for high availability and scalability."
+  },
+  "problem": {
+    "title1": "Why do most custom developments",
+    "titleHighlight": "fail?",
+    "p1": "Most software companies limit themselves to taking requirements and coding. The result: products no one uses, integrations that break, and skyrocketing budgets.",
+    "p2": "At Impetu, we solve the root problem: before the first line of code, we optimize the business process. We don't digitize chaos; we fix it."
+  },
+  "services": {
+    "title1": "Our Power",
+    "titleHighlight": "Verticals",
+    "devTag": "01 / Development",
+    "devTitle": "Web & Mobile App Development",
+    "devDesc": "We don't build interfaces; we create high-availability tools. Scalable applications designed to support your operation's growth.",
+    "aiTag": "02 / Intelligence",
+    "aiTitle": "AI Agents & Automation",
+    "aiDesc": "We deploy intelligent agents that execute tasks, analyze data in real time, and automate complex flows.",
+    "consultingTag": "03 / Lifecycle",
+    "consultingTitle": "Consulting and Lifecycle (SDLC)",
+    "consultingDesc": "We accompany you from Product definition (UX/UI) and architecture, to DevOps and evolutionary maintenance.",
+    "integrationTag": "04 / Ecosystem",
+    "integrationTitle": "Strategic Integrations",
+    "integrationDesc": "We make your ERP, CRM, and payment gateways speak the same language, eliminating silos and manual errors."
+  },
+  "method": {
+    "title1": "Engineering with purpose,",
+    "titleHighlight": "not just with syntax.",
+    "subtitle": "Our holistic approach ensures every line of code impacts your bottom line.",
+    "step1Title": "Discovery & Business Logic",
+    "step1Desc": "We understand your vertical to ensure the software solves a real problem.",
+    "step2Title": "Product Design (UX/UI)",
+    "step2Desc": "We design flows where the user is the focus, guaranteeing adoption.",
+    "step3Title": "AI-Powered Development",
+    "step3Desc": "We accelerate development and guarantee technical quality with integrated AI.",
+    "step4Title": "Full Lifecycle Management",
+    "step4Desc": "We manage deployment, security, and scalability of your digital asset."
+  },
+  "verticals": {
+    "title1": "Engineering proven in",
+    "titleHighlight": "high-demand environments.",
+    "ecommerceTitle": "Retail & eCommerce",
+    "ecommerceDesc": "High traffic architectures and massive order processing.",
+    "fintechTitle": "Fintech",
+    "fintechDesc": "Secure, resilient systems with critical financial integrations.",
+    "startupsTitle": "Startups & MVPs",
+    "startupsDesc": "Speed to market without sacrificing baseline technical quality."
+  },
+  "authority": {
+    "badge1": "100%",
+    "badge2": "Results Focused",
+    "title1": "We speak the language of",
+    "titleHighlight": "your business.",
+    "desc": "We are a team of engineers and strategists who prioritize data-driven decision making and technical efficiency. We are not service providers, we are your elite technology arm.",
+    "stat1Title": "Senior Engineering",
+    "stat1Desc": "Real field experience",
+    "stat2Title": "Business Strategy",
+    "stat2Desc": "ROI Mentality"
+  },
+  "contact": {
+    "ready1": "Ready to stop guessing and",
+    "readyHighlight": "start building?",
+    "desc": "Tell us about your current technical challenge. We will respond with a strategic approach proposal, not just a quote.",
+    "success": "Thank you! We have received your request and will contact you shortly.",
+    "errorSend": "There was an error sending your request. Please try again.",
+    "errorNet": "Network error. Please try again later.",
+    "lblNombre": "First Name",
+    "plcNombre": "First Name",
+    "lblApellido": "Last Name",
+    "plcApellido": "Last Name",
+    "lblEmpresa": "Company",
+    "plcEmpresa": "Your company name",
+    "lblEmail": "Email",
+    "plcEmail": "you@email.com",
+    "lblPhone": "Phone (Opt.)",
+    "plcPhone": "+1 234 567 890",
+    "lblChallenge": "Technical Challenge",
+    "optDefault": "Select an option",
+    "optDev": "Custom Development",
+    "optScale": "Scale Existing App",
+    "optAi": "Implement AI Agents",
+    "optArch": "Architectural Consulting",
+    "submitBtn": "Send and Book Call",
+    "submitting": "Sending..."
+  },
+  "footer": {
+    "desc": "© 2024 Impetu. Strategic Engineering for the Next Level.",
+    "privacy": "Privacy Policy",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}

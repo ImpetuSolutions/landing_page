@@ -1,167 +1,36 @@
-# 🚀 IMPETU Solutions Factory - Landing Page
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Landing page profesional para IMPETU Solutions Factory, una empresa especializada en la creación de ecosistemas digitales inteligentes y unificados.
+## Getting Started
 
-## 📋 Descripción
-
-Esta landing page está diseñada para generar leads cualificados a través de la oferta de sesiones de diagnóstico gratuitas. La página comunica eficazmente la propuesta de valor de IMPETU como socio estratégico en innovación y tecnología inteligente.
-
-## 🎯 Objetivos
-
-- **Objetivo Principal:** Generar prospectos (leads) a través de sesiones de diagnóstico gratuitas
-- **Objetivos Secundarios:**
-  - Establecer a IMPETU como aliado experto en crecimiento y eficiencia
-  - Comunicar los cuatro pilares de servicios
-  - Generar confianza mostrando metodología transparente
-  - Educar sobre "ecosistemas digitales inteligentes"
-
-## 🎨 Características
-
-### Diseño y UX
-- ✅ **Diseño Responsivo** - Optimizado para todos los dispositivos
-- ✅ **Paleta Profesional** - Azules y blancos para transmitir confianza
-- ✅ **Animaciones Avanzadas** - Efectos interactivos y transiciones suaves
-- ✅ **Tipografía Moderna** - Sans-serif limpia y legible
-- ✅ **Íconos SVG** - Sistema de íconos profesional con Heroicons
-
-### Secciones Implementadas
-1. **Hero** - Impacto inmediato con CTA principal
-2. **Problema** - Conexión con el cliente y puntos de dolor
-3. **Servicios** - Los cuatro pilares de servicios de IMPETU
-4. **Metodología** - Proceso transparente de 4 pasos
-5. **CTA Final** - Formulario de contacto con validación
-
-### Funcionalidades
-- ✅ **Formulario de Contacto** - Con validación JavaScript
-- ✅ **Navegación Suave** - Scroll animado entre secciones
-- ✅ **Menú Móvil** - Navegación responsive
-- ✅ **Efectos Parallax** - Fondos interactivos
-- ✅ **Animaciones Scroll** - Elementos que aparecen al hacer scroll
-
-## 🛠️ Tecnologías Utilizadas
-
-- **HTML5** - Estructura semántica
-- **CSS3** - Estilos avanzados con variables CSS
-- **JavaScript** - Interactividad y validaciones
-- **SVG** - Íconos vectoriales escalables
-- **Git** - Control de versiones
-
-## 📁 Estructura del Proyecto
-
-```
-landing_page/
-├── assets/
-│   ├── hero-ecosistema-digital.png
-│   ├── logo-impetu.png
-│   └── icons/
-├── css/
-│   └── styles.css
-├── js/
-│   └── main.js
-├── index.html
-├── iconos-implementacion.html
-├── impetu_pdr.txt
-├── README.md
-└── .gitignore
-```
-
-## 🚀 Instalación y Uso
-
-### Requisitos
-- Navegador web moderno
-- Servidor web local (opcional)
-
-### Instalación Local
-1. Clona el repositorio:
-```bash
-git clone [URL_DEL_REPOSITORIO]
-cd landing_page
-```
-
-2. Abre el archivo `index.html` en tu navegador
-
-### Servidor Local (Recomendado)
-Para una mejor experiencia, ejecuta un servidor local:
+First, run the development server:
 
 ```bash
-# Con Python 3
-python3 -m http.server 8000
-
-# Con Python 2
-python -m SimpleHTTPServer 8000
-
-# Con Node.js (si tienes http-server instalado)
-npx http-server
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Luego visita `http://localhost:8000`
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🎯 Audiencia Objetivo
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### Perfil Primario
-- Dueños de negocios
-- Directores generales (CEOs)
-- Gerentes de operaciones de PYMES
-- Empresas con problemas de eficiencia por procesos manuales
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### Perfil Secundario
-- Directores de tecnología (CTOs)
-- Líderes de TI
-- Empresas que buscan integración de IA
+## Learn More
 
-## 📊 Métricas de Éxito (KPIs)
+To learn more about Next.js, take a look at the following resources:
 
-- **Tasa de Conversión** - Porcentaje de visitantes que completan el formulario
-- **Tasa de Rebote** - Porcentaje de visitantes que abandonan sin interactuar
-- **Calidad de Leads** - Número de prospectos que se ajustan al perfil ideal
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🎨 Personalización
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### Colores
-Las variables CSS están definidas en `css/styles.css`:
-```css
-:root {
-  --primary-blue: #1e40af;
-  --secondary-blue: #0ea5e9;
-  --accent-blue: #3b82f6;
-  /* ... más variables */
-}
-```
+## Deploy on Vercel
 
-### Contenido
-- Edita `index.html` para modificar el contenido
-- Actualiza `impetu_pdr.txt` para referencias del PDR
-- Modifica `css/styles.css` para cambios de diseño
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 📱 Responsive Design
-
-La landing page está optimizada para:
-- **Desktop** - 1200px+
-- **Tablet** - 768px - 1199px
-- **Móvil** - 320px - 767px
-
-## 🔧 Mantenimiento
-
-### Actualizaciones Recomendadas
-- Revisar y actualizar contenido según feedback de usuarios
-- Optimizar imágenes para mejor rendimiento
-- Mantener compatibilidad con navegadores modernos
-- Actualizar íconos según necesidades de marca
-
-### Optimizaciones Futuras
-- Implementar analytics avanzado
-- Añadir A/B testing
-- Integrar con CRM para gestión de leads
-- Optimizar SEO técnico
-
-## 📄 Licencia
-
-Este proyecto es propiedad de IMPETU Solutions Factory.
-
-## 🤝 Contribuciones
-
-Para contribuciones o sugerencias, contacta al equipo de desarrollo de IMPETU.
-
----
-
-**Desarrollado con ❤️ para IMPETU Solutions Factory** 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
