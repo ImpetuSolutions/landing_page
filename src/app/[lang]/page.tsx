@@ -363,11 +363,13 @@ export default async function Home({
         <section className="py-16 sm:py-24 px-6 sm:px-8 max-w-7xl mx-auto border-t border-white/5">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="relative mx-auto w-full max-w-md lg:max-w-none">
-              <div className="aspect-square rounded-[3rem] overflow-hidden bg-surface-container-high border border-white/10 flex items-center justify-center p-8 sm:p-12">
-                <span className="material-symbols-outlined text-[8rem] sm:text-[12rem] text-primary/20">
-                  groups
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10"></div>
+              <div className="aspect-square rounded-[3rem] overflow-hidden bg-surface-container-high border border-white/10 relative group">
+                <img
+                  src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2940&auto=format&fit=crop"
+                  alt="Estrategia y Negocios"
+                  className="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-luminosity group-hover:mix-blend-normal group-hover:scale-105 group-hover:opacity-100 transition-all duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-transparent to-secondary/30 pointer-events-none group-hover:opacity-50 transition-opacity duration-700"></div>
               </div>
               <div className="absolute -bottom-4 -right-2 sm:-bottom-6 sm:-right-6 glass-panel p-6 sm:p-8 rounded-2xl shadow-2xl">
                 <p className="text-primary font-bold text-2xl sm:text-3xl font-headline mb-1">
