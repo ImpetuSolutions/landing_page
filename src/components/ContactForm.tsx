@@ -45,74 +45,74 @@ export function ContactForm({ dict }: { dict: any }) {
   };
 
   return (
-    <div>
+    <div className="w-full">
       {success && (
-        <div className="bg-primary/20 border border-primary text-primary px-6 py-4 rounded-xl font-bold mt-4 mb-6">
+        <div className="bg-primary/20 border border-primary text-primary px-4 sm:px-6 py-4 rounded-xl font-bold mt-4 mb-6 text-sm sm:text-base">
           {dict.success}
         </div>
       )}
-      <div className="bg-surface/60 backdrop-blur-md p-8 md:p-10 rounded-2xl border border-white/10 shadow-2xl">
-        <form className="space-y-6" onSubmit={handleSubmit}>
-          <div className="grid grid-cols-2 gap-4">
+      <div className="bg-surface/60 backdrop-blur-md p-6 sm:p-8 lg:p-10 rounded-2xl border border-white/10 shadow-2xl">
+        <form className="space-y-4 sm:space-y-6" onSubmit={handleSubmit}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
+              <label className="block text-[10px] sm:text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
                 {dict.lblNombre}
               </label>
               <input
-                className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white"
+                className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white text-sm sm:text-base"
                 placeholder={dict.plcNombre} type="text" name="nombre" required
                 value={formData.nombre} onChange={handleChange}
               />
             </div>
             <div>
-              <label className="block text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
+              <label className="block text-[10px] sm:text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
                 {dict.lblApellido}
               </label>
               <input
-                className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white"
+                className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white text-sm sm:text-base"
                 placeholder={dict.plcApellido} type="text" name="apellido" required
                 value={formData.apellido} onChange={handleChange}
               />
             </div>
           </div>
           <div>
-            <label className="block text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
+            <label className="block text-[10px] sm:text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
               {dict.lblEmpresa}
             </label>
             <input
-              className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white"
+              className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white text-sm sm:text-base"
               placeholder={dict.plcEmpresa} type="text" name="empresa" required
               value={formData.empresa} onChange={handleChange}
             />
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
+              <label className="block text-[10px] sm:text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
                 {dict.lblEmail}
               </label>
               <input
-                className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white"
+                className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white text-sm sm:text-base"
                 placeholder={dict.plcEmail} type="email" name="email" required
                 value={formData.email} onChange={handleChange}
               />
             </div>
             <div>
-              <label className="block text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
+              <label className="block text-[10px] sm:text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
                 {dict.lblPhone}
               </label>
               <input
-                className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white"
+                className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white text-sm sm:text-base"
                 placeholder={dict.plcPhone} type="tel" name="telefono"
                 value={formData.telefono} onChange={handleChange}
               />
             </div>
           </div>
           <div>
-            <label className="block text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
+            <label className="block text-[10px] sm:text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-2">
               {dict.lblChallenge}
             </label>
             <select
-              className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white"
+              className="w-full bg-surface-container-high border-white/5 rounded-xl px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary transition-all text-white text-sm sm:text-base"
               name="desafioTecnico" required value={formData.desafioTecnico} onChange={handleChange}
             >
               <option disabled value="">{dict.optDefault}</option>
@@ -123,7 +123,7 @@ export function ContactForm({ dict }: { dict: any }) {
             </select>
           </div>
           <button
-            className="w-full py-4 bg-primary text-on-primary rounded-xl font-headline font-bold text-xl hover:bg-primary-container transition-all shadow-[0_10px_30px_rgba(0,163,175,0.3)] disabled:opacity-50"
+            className="w-full py-4 bg-primary text-on-primary rounded-xl font-headline font-bold text-lg sm:text-xl hover:bg-primary-container transition-all shadow-[0_10px_30px_rgba(0,163,175,0.3)] disabled:opacity-50 mt-2"
             type="submit" disabled={isSubmitting}
           >
             {isSubmitting ? dict.submitting : dict.submitBtn}
