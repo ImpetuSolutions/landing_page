@@ -17,8 +17,8 @@ export default async function Home({
           <div className="flex items-center gap-2">
             <img
               alt="Ímpetu Logo"
-              className="h-6 sm:h-8 md:h-10"
-              src="https://lh3.googleusercontent.com/aida/ADBb0ujRFweCIg7EQv_-JXFuVO949YmcMwrSaVjktvht_y3hO1GuUbinAInRGDlbc4KmHTBIKDX2WMah2XAWoiDJs8YT0Idqj5laZAfovxYOUlEjokppMdtBCtiUx8AGfE-p9gi2E0mglZqgCMZPdSXMe4CBpPTtKmOL8qWdYp9xmL1QVO23Vat3UxbiMOVrGttWR-_dJcbGmsLCUd3-uHOd8VsMpwFf7VPnsFsUwVeFt6B10G_R_EhtK5Plrshc79aSH_FY4Yl5_ME"
+              className="h-10 sm:h-12 md:h-14"
+              src="/assets/logo-impetu.png"
             />
           </div>
           <div className="hidden lg:flex items-center space-x-8">
@@ -438,7 +438,7 @@ export default async function Home({
             <img
               alt="Ímpetu Logo"
               className="h-6 sm:h-8 opacity-90"
-              src="https://lh3.googleusercontent.com/aida/ADBb0uiU11qcdKPg8ZANNwAQQ8CZxAhPgUYrgIxqNHCeEcq6JgfWH-deABIvT8Tpyr08t1Lp-oB0gSqOBu9AdWUuuPzNZk9LXPoVUfDBSCDWvuEg5nZwOr9V2JywyUb0eIPvRxR9hE97uBbrZmw4DqiAZlXesw87Kf7yCu67RubkUo8adK2LGIaTeGElL3Frz9kQ56u71hpejtUAIe69XxgrRaRXFCKYLDoDLqnE-CgOHQEeWHUlxceLOiuyqybn-vi4XR0MxpWpECN4"
+              src="/assets/logo-impetu.png"
             />
             <p className="font-body text-[10px] sm:text-xs tracking-wide text-slate-500 text-center lg:text-left max-w-sm">
               {dict.footer.desc}
