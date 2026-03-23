@@ -446,20 +446,20 @@ export default async function Home({
           </div>
           <div className="flex flex-wrap justify-center gap-6 sm:gap-10 mt-4 lg:mt-0">
             <a
-              className="font-body text-[10px] sm:text-xs tracking-wide text-slate-400 hover:text-primary transition-colors"
-              href="#"
+              className="font-body text-[10px] sm:text-xs tracking-wide text-slate-400 hover:text-primary transition-colors cursor-pointer"
+              href={`/${lang}/privacy`}
             >
               {dict.footer.privacy}
             </a>
             <a
               className="font-body text-[10px] sm:text-xs tracking-wide text-slate-400 hover:text-primary transition-colors"
-              href="#"
+              href="https://www.linkedin.com/company/impetusoftwarefactory"
             >
               {dict.footer.linkedin}
             </a>
             <a
               className="font-body text-[10px] sm:text-xs tracking-wide text-slate-400 hover:text-primary transition-colors"
-              href="#"
+              href=""
             >
               {dict.footer.github}
             </a>

@@ -107,5 +107,19 @@
     "privacy": "Política de Privacidad",
     "linkedin": "LinkedIn",
     "github": "GitHub"
+  },
+  "privacyPage": {
+    "title": "Política de Privacidad y Manejo de Datos",
+    "lastUpdated": "Última actualización: Marzo 2026",
+    "intro": "En Ímpetu, respetamos profundamente la confidencialidad técnica y estratégica de nuestros clientes. Esta política describe cómo manejamos la información personal y los datos empresariales que procesamos a través de nuestros sistemas de mensajería interactivos y canales de captura de oportunidades (CRM).",
+    "s1Title": "Captura de PII (Información Identificable)",
+    "s1Content": "Únicamente recolectamos la información necesaria para el contacto corporativo directo (Nombre, Apellido, Email, Teléfono y Empresa) de manera voluntaria a través de nuestro componente de Formulario Seguro. No rastreamos datos personales mediante cookies de terceros invasivas para telemetría.",
+    "s2Title": "Sistemas de Mensajería y CRM Central",
+    "s2Content": "Los datos recopilados desde esta plataforma son inmediatamente enrutados y cifrados mediante nuestras API hacia nuestro sistema CRM autorizado (Zoho). Toda la información es controlada restrictivamente bajo roles de acceso corporativos sin la exposición a modelos de lenguaje o mensajería de IA de dominio público.",
+    "s3Title": "Retención y Uso Operativo",
+    "s3Content": "Utilizaremos las vías de comunicación y sistemas logísticos exclusivamente para agendar sesiones de consultoría y seguimiento técnico continuo. Ímpetu no comparte, alquila, ni comercializa datos personales ni modelos de negocio de sus prospectos con firmas terceras.",
+    "s4Title": "Sus Derechos como Usuario",
+    "s4Content": "Como usuario y representante empresarial, usted mantiene control total sobre sus datos de contacto. Puede rectificar, oponerse o exigir el borrado total de sus huellas de información en nuestra base de datos enrutando un mensaje formal a nuestros correos de contacto corporativos.",
+    "back": "Volver a Ímpetu"
   }
 }

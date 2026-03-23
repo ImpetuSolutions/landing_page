@@ -107,5 +107,19 @@
     "privacy": "Privacy Policy",
     "linkedin": "LinkedIn",
     "github": "GitHub"
+  },
+  "privacyPage": {
+    "title": "Data Privacy and Handling Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "intro": "At Impetu, we deeply respect the technical and strategic confidentiality of our clients. This policy describes how we handle the personal information and business data we process through our interactive messaging systems and CRM capture channels.",
+    "s1Title": "PII Capture (Personally Identifiable Information)",
+    "s1Content": "We only collect the information necessary for direct corporate contact (First Name, Last Name, Email, Phone, and Company) voluntarily through our Secure Form component. We do not track personal data through invasive third-party cookies.",
+    "s2Title": "Messaging Systems and Core CRM",
+    "s2Content": "Data collected from this platform is immediately routed and encrypted via our APIs to our authorized CRM system (Zoho) and lead handler. All information is strictly controlled under corporate access roles without the intervention of public domain AI messaging bots.",
+    "s3Title": "Retention and Operational Use",
+    "s3Content": "We will use the communication channels provided exclusively to schedule consulting sessions and technical follow-ups. We will not share, rent, or sell your contact information to marketing entities.",
+    "s4Title": "Your Rights",
+    "s4Content": "As a user and/or corporate representative, you have full control over your data. You can request the edition or permanent deletion of your records in our internal systems at any time by writing through official channels.",
+    "back": "Back to Impetu"
   }
 }
