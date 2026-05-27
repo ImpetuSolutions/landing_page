@@ -110,8 +110,8 @@
   },
   "privacyPage": {
     "title": "Política de Privacidad y Manejo de Datos",
-    "lastUpdated": "Última actualización: Marzo 2026",
-    "intro": "En Ímpetu, respetamos profundamente la confidencialidad técnica y estratégica de nuestros clientes. Esta política describe cómo manejamos la información personal y los datos empresariales que procesamos a través de nuestros sistemas de mensajería interactivos y canales de captura de oportunidades (CRM).",
+    "lastUpdated": "Última actualización: Mayo 2026",
+    "intro": "En Ímpetu, respetamos profundamente la confidencialidad técnica y estratégica de nuestros clientes. Esta política describe cómo manejamos la información personal y los datos empresariales que procesamos a través de nuestros sistemas de mensajería interactivos —incluyendo la API de WhatsApp Business— y canales de captura de oportunidades (CRM).",
     "s1Title": "Captura de PII (Información Identificable)",
     "s1Content": "Únicamente recolectamos la información necesaria para el contacto corporativo directo (Nombre, Apellido, Email, Teléfono y Empresa) de manera voluntaria a través de nuestro componente de Formulario Seguro. No rastreamos datos personales mediante cookies de terceros invasivas para telemetría.",
     "s2Title": "Sistemas de Mensajería y CRM Central",
@@ -120,6 +120,14 @@
     "s3Content": "Utilizaremos las vías de comunicación y sistemas logísticos exclusivamente para agendar sesiones de consultoría y seguimiento técnico continuo. Ímpetu no comparte, alquila, ni comercializa datos personales ni modelos de negocio de sus prospectos con firmas terceras.",
     "s4Title": "Sus Derechos como Usuario",
     "s4Content": "Como usuario y representante empresarial, usted mantiene control total sobre sus datos de contacto. Puede rectificar, oponerse o exigir el borrado total de sus huellas de información en nuestra base de datos enrutando un mensaje formal a nuestros correos de contacto corporativos.",
+    "s5Title": "Integración con WhatsApp Business API",
+    "s5Content": "Ímpetu utiliza la API de WhatsApp Business de Meta Platforms, Inc. para establecer comunicaciones directas con prospectos y clientes que han brindado consentimiento previo. A través de esta integración enviamos confirmaciones de consultoría, recordatorios de reuniones, actualizaciones de proyecto y comunicaciones de seguimiento comercial. El uso de esta API está sujeto a los Términos de Servicio de WhatsApp Business y la Política de Privacidad de Meta Platforms.",
+    "s6Title": "Consentimiento y Opt-In para WhatsApp",
+    "s6Content": "Al proporcionar su número de teléfono en nuestro formulario de contacto, usted otorga consentimiento expreso para recibir mensajes de WhatsApp de parte de Ímpetu. Este consentimiento es voluntario, informado y puede revocarse en cualquier momento. Únicamente iniciamos comunicaciones por WhatsApp con usuarios que han solicitado activamente nuestros servicios o que han confirmado su deseo de ser contactados mediante este canal.",
+    "s7Title": "Cancelación de Mensajería (Opt-Out)",
+    "s7Content": "Puede cancelar la recepción de mensajes de WhatsApp en cualquier momento respondiendo con las palabras STOP, DETENER o CANCELAR a cualquier mensaje nuestro. Alternativamente, puede solicitarlo por correo electrónico a nuestros canales de contacto corporativos. Procesaremos su baja en un plazo máximo de 48 horas hábiles y no volverá a recibir mensajes salvo que lo solicite nuevamente.",
+    "s8Title": "Procesamiento de Datos por Meta Platforms",
+    "s8Content": "Como proveedor de infraestructura de la API de WhatsApp Business, Meta Platforms, Inc. procesa metadatos de mensajería —número de teléfono, marcas de tiempo y estado de entrega— conforme a su Política de Privacidad disponible en facebook.com/privacy/policy. Ímpetu no comparte el contenido de las conversaciones con terceros distintos a los operativamente necesarios para la prestación del servicio.",
     "back": "Volver a Ímpetu"
   }
 }

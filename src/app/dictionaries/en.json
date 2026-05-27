@@ -110,8 +110,8 @@
   },
   "privacyPage": {
     "title": "Data Privacy and Handling Policy",
-    "lastUpdated": "Last updated: March 2026",
-    "intro": "At Impetu, we deeply respect the technical and strategic confidentiality of our clients. This policy describes how we handle the personal information and business data we process through our interactive messaging systems and CRM capture channels.",
+    "lastUpdated": "Last updated: May 2026",
+    "intro": "At Impetu, we deeply respect the technical and strategic confidentiality of our clients. This policy describes how we handle the personal information and business data we process through our interactive messaging systems — including the WhatsApp Business API — and CRM capture channels.",
     "s1Title": "PII Capture (Personally Identifiable Information)",
     "s1Content": "We only collect the information necessary for direct corporate contact (First Name, Last Name, Email, Phone, and Company) voluntarily through our Secure Form component. We do not track personal data through invasive third-party cookies.",
     "s2Title": "Messaging Systems and Core CRM",
@@ -120,6 +120,14 @@
     "s3Content": "We will use the communication channels provided exclusively to schedule consulting sessions and technical follow-ups. We will not share, rent, or sell your contact information to marketing entities.",
     "s4Title": "Your Rights",
     "s4Content": "As a user and/or corporate representative, you have full control over your data. You can request the edition or permanent deletion of your records in our internal systems at any time by writing through official channels.",
+    "s5Title": "WhatsApp Business API Integration",
+    "s5Content": "Impetu uses Meta Platforms, Inc.'s WhatsApp Business API to establish direct communications with prospects and clients who have provided prior consent. Through this integration we send consulting confirmations, meeting reminders, project updates, and commercial follow-up messages. Use of this API is subject to the WhatsApp Business Terms of Service and Meta Platforms' Privacy Policy.",
+    "s6Title": "Consent and Opt-In for WhatsApp",
+    "s6Content": "By providing your phone number through our contact form, you grant explicit consent to receive WhatsApp messages from Impetu. This consent is voluntary, informed, and may be revoked at any time. We only initiate WhatsApp communications with users who have actively requested our services or confirmed their desire to be contacted through this channel.",
+    "s7Title": "Messaging Opt-Out / Unsubscribe",
+    "s7Content": "You may cancel the receipt of WhatsApp messages at any time by replying with the words STOP, UNSUBSCRIBE, or CANCEL to any message we send you. Alternatively, you may request opt-out via email through our official contact channels. We will process your request within a maximum of 48 business hours and you will not receive further messages unless requested.",
+    "s8Title": "Data Processing by Meta Platforms",
+    "s8Content": "As the infrastructure provider for the WhatsApp Business API, Meta Platforms, Inc. processes messaging metadata — phone number, timestamps, and delivery status — in accordance with their Privacy Policy available at facebook.com/privacy/policy. Impetu does not share conversation content with third parties beyond those operationally necessary for service delivery.",
     "back": "Back to Impetu"
   }
 }

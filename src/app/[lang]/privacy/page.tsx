@@ -84,6 +84,46 @@ export default async function PrivacyPolicy({
               {dict.privacyPage.s4Content}
             </p>
           </div>
+
+          <div className="border-t border-white/10 pt-8 space-y-3 sm:space-y-4">
+            <h2 className="text-lg sm:text-xl font-headline font-bold text-white flex items-center gap-2">
+              <span className="material-symbols-outlined text-primary text-xl">chat</span>
+              {dict.privacyPage.s5Title}
+            </h2>
+            <p className="text-sm sm:text-base leading-relaxed text-slate-400">
+              {dict.privacyPage.s5Content}
+            </p>
+          </div>
+
+          <div className="space-y-3 sm:space-y-4">
+            <h2 className="text-lg sm:text-xl font-headline font-bold text-white flex items-center gap-2">
+              <span className="material-symbols-outlined text-primary text-xl">check_circle</span>
+              {dict.privacyPage.s6Title}
+            </h2>
+            <p className="text-sm sm:text-base leading-relaxed text-slate-400">
+              {dict.privacyPage.s6Content}
+            </p>
+          </div>
+
+          <div className="space-y-3 sm:space-y-4">
+            <h2 className="text-lg sm:text-xl font-headline font-bold text-white flex items-center gap-2">
+              <span className="material-symbols-outlined text-primary text-xl">do_not_disturb_on</span>
+              {dict.privacyPage.s7Title}
+            </h2>
+            <p className="text-sm sm:text-base leading-relaxed text-slate-400">
+              {dict.privacyPage.s7Content}
+            </p>
+          </div>
+
+          <div className="space-y-3 sm:space-y-4">
+            <h2 className="text-lg sm:text-xl font-headline font-bold text-white flex items-center gap-2">
+              <span className="material-symbols-outlined text-primary text-xl">share</span>
+              {dict.privacyPage.s8Title}
+            </h2>
+            <p className="text-sm sm:text-base leading-relaxed text-slate-400">
+              {dict.privacyPage.s8Content}
+            </p>
+          </div>
         </div>
       </main>
 
